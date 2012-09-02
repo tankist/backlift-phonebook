@@ -1,0 +1,41 @@
+_app_id: phonebook-stalin # do not change
+
+
+# scripts: These javascript files will be packaged and linked
+# in order before any other .js files. File paths should be 
+# specified relative to the project root. They should not be 
+# compressed. 
+
+scripts:
+- public/libraries/scripts/jquery-1.7.2.js
+- public/libraries/scripts/underscore-1.3.3.js
+- public/libraries/scripts/backbone-0.9.2.js
+- public/libraries/scripts/bootstrap-2.0.4.js
+- public/setup.js
+
+# add_remaining_scripts: (Yes or No) If Yes, all .js files in 
+# the project will be packaged and linked to the main html 
+# file. Files not included in the 'scripts' list will be 
+# loaded in arbitrary order.
+#
+# If No, only the files listed in the scripts list will 
+# be packaged and linked. Regardless, all script files will 
+# be uploaded. You would only set 'add_remaining_scripts' to
+# No if you were using a separate asset management library,
+# like require.js 
+
+add_remaining_scripts: yes
+
+
+# styles: These stylesheets will be packaged and linked
+# in order before any other .css files, similar to scripts.
+
+styles:
+- public/libraries/styles/bootstrap-2.0.4.css
+
+# add_remaining_styles: (Yes or No) If Yes, all remaining 
+# .css files in the project will be packaged and linked 
+# into the app. If No, only the files listed in the 'styles' 
+# list will be linked.
+
+add_remaining_styles: yes

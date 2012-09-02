@@ -1,0 +1,23 @@
+/* user view --------------------------- */
+
+#title {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.tabs-left .nav-tabs {
+  float: none;
+  margin-right: 0;
+}
+
+.phonebook {
+    margin-top: 20px;
+}
+.phonebook table {
+    width: 100%;
+}
+.empty {
+    padding: 20px;
+    text-align: center;
+}
